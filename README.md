@@ -24,8 +24,10 @@
     ```
 ## 2. Simple Script to fetch the AWS EC2 Instance Metadata
 
-     Overview
+     Description
      ```
+       Created simple shell script to fetch the specific / all metadata key values in json format.
+       
      ```
 
 
