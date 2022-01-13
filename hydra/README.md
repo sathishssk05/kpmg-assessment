@@ -1,8 +1,11 @@
 
 
-
-export KEY="Reservations[0].Instances[0].InstanceType" 
-export INSTANCE_ID="i-031a96c0cc00a7984"
+```bash
+Example KEY="Reservations[0].Instances[0].InstanceType" 
+```
+```bash
+Example INSTANCE_ID="i-031a96c0cc00a7984"
+```
 
 ```
 # demo key AKIA4OG6NSSKGQW2Y3TXKSS4NU
