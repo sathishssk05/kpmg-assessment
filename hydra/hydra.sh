@@ -19,9 +19,7 @@ then
 else
    aws ec2 describe-instances --instance-ids $instance  --output json
 fi
-# key=$KEY
-# instance-id=$INSTANCE_ID
-#i-031a96c0cc00a7984
+
 
 
 
