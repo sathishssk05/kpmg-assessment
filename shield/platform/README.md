@@ -5,7 +5,7 @@
   - gcloud (Authenticated)
   - Required IAM Permissions
   - Terraform
-  - Gcloud & Terraform auth integration
+  - Gcloud & Terraform auth integration (gcloud auth application-default login)
 ```
 
 # K8S Cluster & Postgres Deploy
