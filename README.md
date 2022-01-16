@@ -3,28 +3,25 @@
 ## 1. Deploy 3-tier Application - Shield 
  Overview 
    
-   Platform & App is hosted on GKE & Google Postgresql
+   The App & Web Layers are deployed on GKE cluster and the DB is deployed on Google CloudSQL service.
 # Web Layer
     ```
     Nginx Ingress Controller
 
-    Description
     ```
 # Application
     ```
     Shield - Sonarqube
 
-    Description
     ```
 # Database
     ```
-    CloudSQL - Postgres
+    Google CloudSQL - Postgres managed service
 
-    Description
     ```
 ## 2. Simple Script to fetch the AWS EC2 Instance Metadata
 
-     Description
+     Overview
      ```
        Created simple shell script to fetch the specific / all metadata key values in json format.
        
