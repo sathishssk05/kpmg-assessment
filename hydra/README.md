@@ -3,21 +3,10 @@
 # Prerequesties
 
  ```bash
-   - aws cli 
-   - aws Access & Secret Key
+   - aws cli  # aws cli should be installed, if not please refer the following doc. https://aws.amazon.com/cli/
+   - aws Access & Secret Key  # Keep the necessary Auth Keys to get AWS Programmatic Access. For further info refer the following doc. https://aws.amazon.com/premiumsupport/knowledge-center/create-access-key/
  ```
 
-```bash
-Example KEY="Reservations[0].Instances[0].InstanceType" 
-```
-```bash
-Example INSTANCE_ID="i-031a96c0cc00a7984"
-```
-```
-# demo key AKIA4OG6NSSKGQW2Y3TXKSS4NU
-# demo secret EL6WKSSK52ifAdXJ/+lbsVwB+S5rsY4G+6vx1XKSSYepzu
-
-```
 
 # Steps
 ```
@@ -39,8 +28,9 @@ Example INSTANCE_ID="i-031a96c0cc00a7984"
   ```bash
   e.g i-031a96c0cc00a7984
   ```
-- Enter yes / no to proceed with specific / all metadata fetch
+- Enter yes / no to proceed with specific / all metadata fetch. --> i.e if "yes" feed the below value as a input & if "no" all the metadata values will be fecthed for the specific EC2.
   ```bash
   e.g Reservations[0].Instances[0].InstanceType
   ```
 - The expected Results will be populated on the terminal.
+```

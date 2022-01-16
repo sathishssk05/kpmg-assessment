@@ -40,7 +40,7 @@ spec:
           - name: "SONARQUBE_JDBC_USERNAME"
             value: "db-user-name"
           - name: "SONARQUBE_JDBC_URL"
-            value: "jdbc:postgresql://private-ip-of-postgres-db:5432/db-name"
+            value: "jdbc:postgresql://private-ip-of-postgres-db:5432/db-name" # DB Private IP Values can be fecthed in the output section of Terraform Postgresql Script.
           - name: "SONARQUBE_JDBC_PASSWORD"
             value: "sonarqubedbpassword"
         volumeMounts:
