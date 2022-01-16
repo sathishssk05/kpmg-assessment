@@ -1,6 +1,6 @@
-### GKE cluster with nodepool & Postgresql Deployment
+# GKE cluster with nodepool & Postgresql Deployment
 
-# Prerequesties
+## Prerequesties
 ```
   - gcloud (Authenticated)
   - Required IAM Permissions
@@ -8,7 +8,7 @@
   - Gcloud & Terraform auth integration (gcloud auth application-default login)
 ```
 
-# K8S Cluster & Postgres Deploy
+## K8S Cluster & Postgres Deploy
 
  - Run the below commands to deploy gke cluster with separate managed nodepool & Postgresql 
 
@@ -26,7 +26,7 @@
    terraform apply  # Create's the resources defined on the specific terraform folder.
 ```
 
-# To destroy the resources
+## To destroy the resources
 
   - Perform the below command to delete the resources which are created through terraform.
 

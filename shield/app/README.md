@@ -1,6 +1,6 @@
-## Shield App Deployment
+# Shield App Deployment
 
-# Prerequesties
+## Prerequesties
 ```
    - GKE cluster
    - Cloud SQL
@@ -8,7 +8,7 @@
    - Kubectl
 ```
 
-# Deploy 
+## Deploy 
 
 - Run the below command to deploy the app with service.
 ```bash

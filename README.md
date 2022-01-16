@@ -1,20 +1,20 @@
-### KPMG DevOps Assessment
+# KPMG DevOps Assessment
 
 ## 1. Deploy 3-tier Application - Shield 
  Overview 
    
    The App & Web Layers are deployed on GKE cluster and the DB is deployed on Google CloudSQL service.
-# Web Layer
+### Web Layer
 ```
     Nginx Ingress Controller
 
 ```
-# Application
+### Application
 ```
     Shield - Sonarqube
 
 ```
-# Database
+### Database
 ```
     Google CloudSQL - Postgres managed service
 

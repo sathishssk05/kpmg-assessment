@@ -1,6 +1,6 @@
-### Simple Shell Script to Fetch the EC2 Metadata
+# Simple Shell Script to Fetch the EC2 Metadata
 
-# Prerequesties
+## Prerequesties
 
  ```bash
    - aws cli  # aws cli should be installed, if not please refer the following doc. https://aws.amazon.com/cli/
@@ -8,7 +8,7 @@
  ```
 
 
-# Steps
+## Steps
 
  - Make sure you are in the right directory structure where the "hydra.sh" is located and run the following commands.
  
