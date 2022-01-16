@@ -1,4 +1,4 @@
-## Simple Shell Script to Fetch the EC2 Metadata
+### Simple Shell Script to Fetch the EC2 Metadata
 
 # Prerequesties
 
@@ -9,7 +9,7 @@
 
 
 # Steps
-```
+
  - Make sure you are in the right directory structure where the "hydra.sh" is located and run the following commands.
  
  ```bash
